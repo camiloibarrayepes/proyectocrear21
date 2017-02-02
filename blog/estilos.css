@@ -1,0 +1,147 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Cabin';
+}
+body{
+	background: #eee;
+}
+#principal{
+	width: 950px;
+	height: 700px;
+	margin: auto;
+}
+/* header */
+header{
+	background: white;
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: 5px;
+	transition: all 1s;
+}
+header h1{
+	font-family: 'Lobster';
+	float: left;
+	color: teal;
+	text-shadow: 0 0 1px darkorange;
+	margin-left: 10px;
+}
+header nav{
+	float: right;
+	margin-right: 5px;
+}
+header nav ul li{
+	display: inline-block;
+	padding: 0 5px;
+}
+header nav ul li a{
+	text-decoration: none;
+	color: #666;
+	transition: all 0.5s;
+}
+header nav ul li a:hover{
+	color: teal;
+}
+/* main */
+main{
+	height: 150px;
+	background: url("imagenes/banner.jpg") 15% center;
+	position: relative;
+	margin-bottom: 5px;
+}
+/* section */
+section{
+	width: 730px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+section article{
+	width: 720px;
+	height: 180px;
+	box-shadow: 0 0 2px #ccc;
+	background: white;
+	padding: 5px;
+	margin-bottom: 5px;
+	position: relative;
+}
+section article img{
+	width: 270px;
+	height: 180px;
+	float: left;
+	margin-right: 5px;
+	transition: all 0.5s;
+}
+section article:hover img{
+	filter: blur(1px);
+	-moz-filter: blur(1px);
+	-wetkit-filter: blur(1px);
+	-o-filter: blur(1px);
+	-ms-filter: blur(1px);
+}
+section article p{
+	color: #333;
+	text-align: justify;
+	margin-top: 5px;
+}
+section article span{
+	color: #555;
+}
+section article .tag{
+	text-decoration: none;
+	color: #555;
+}
+section article .active{
+	text-decoration: none;
+	position: absolute;
+	background: teal;
+	color: white;
+	padding: 3px 7px;
+	right: 5px;
+	bottom: 5px;
+	border-radius: 2px;
+	border-bottom: 4px solid #005e5e;
+}
+section article .active:active{
+	border: none;
+	box-shadow: 0 0 2px #333 inset;
+	margin-top: 5px;
+}
+section article .active:hover{
+	background: #007171;
+}
+section article .comentarios{
+	position: absolute;
+	right: 110px;
+	bottom: 5px;
+}
+section article .comentarios i{
+	background: teal;
+	color: white;
+	border-radius: 3px;
+	padding: 1px 3px;
+}
+#recientes img{
+	width: 200px;
+	height: 200px;
+}
+/* aside */
+aside{
+	width: 210px;
+	height: 350px;
+	background: white;
+	box-shadow: 0 0 2px #ccc;
+	float: left;
+	margin-left: 620px;
+}
+/* footer */
+footer{
+	clear: both;
+	height: 50px;
+	line-height: 50px;
+	color: #444;
+	text-align: center;
+	background: white;
+	box-shadow: 0 0 2px #ccc;
+}
