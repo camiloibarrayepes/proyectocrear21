@@ -10,7 +10,7 @@
 							{									
 								print '
 								<li>
-									<a href="index.html" class="site-nav__link">
+									<a href="'.$row["url"].'" class="site-nav__link">
 										<span>'.$row["titulo"].'</span>
 									</a>
 								</li>';
